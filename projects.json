@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "messaging-platform",
+      "title": "Reliable campaign delivery",
+      "company": "DC Nearshore",
+      "status": "Professional work",
+      "problem": "A legacy PHP messaging service was losing messages and emails.",
+      "contribution": "Took ownership, rewrote the service in Laravel, and led incremental CRM modernization.",
+      "decisions": [
+        "Redis-backed queues and asynchronous processing, with idempotency keys to prevent duplicate sends.",
+        "Twilio, Plivo and Telnyx for SMS; SendGrid and SES for email. CloudWatch for delivery monitoring.",
+        "Laravel APIs and Vue/Nuxt for the CRM; MySQL for operations and Redshift for campaign analytics."
+      ],
+      "outcome": "Resolved the reported delivery-loss issues, prevented duplicate sends, and added campaign reporting.",
+      "evidence": "Professional account; no measured throughput, uptime or cost figures are published."
+    },
+    {
+      "id": "engineering-platform",
+      "title": "Internal data & developer tooling",
+      "company": "Emaya",
+      "status": "Professional work",
+      "problem": "Teams needed consistent access to internal data and application quality signals.",
+      "contribution": "Built and deployed an internal FastAPI API, collectors, repository tooling, and shared libraries.",
+      "decisions": [
+        "OpenAPI documentation for the internal data API; Python/Bash collectors and Strawberry GraphQL for engineering metrics.",
+        "Dependency analysis to flag libraries outside quality and security standards.",
+        "Terraform-managed Azure deployments, Azure Monitor and Application Insights."
+      ],
+      "outcome": "Teams gained a documented data API and tooling to identify dependency issues across applications.",
+      "evidence": "Professional account; no adoption counts or measured time savings are published."
+    }
+  ]
+}
