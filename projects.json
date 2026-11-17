@@ -10,7 +10,8 @@
       "decisions": [
         "Redis-backed queues and asynchronous processing, with idempotency keys to prevent duplicate sends.",
         "Twilio, Plivo and Telnyx for SMS; SendGrid and SES for email. CloudWatch for delivery monitoring.",
-        "Laravel APIs and Vue/Nuxt for the CRM; MySQL for operations and Redshift for campaign analytics."
+        "Laravel APIs and Vue/Nuxt for the CRM; MySQL for operations and Redshift for campaign analytics.",
+        "Chart.js and DataTables for reporting interfaces, built independently and from designers' mockups; unit and integration tests across application layers."
       ],
       "outcome": "Resolved the reported delivery-loss issues, prevented duplicate sends, and added campaign reporting.",
       "evidence": "Professional account; no measured throughput, uptime or cost figures are published."
